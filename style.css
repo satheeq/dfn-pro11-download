@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    font-family: 'Cairo', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 24px;
+  }
+
+  /* Styling the logos */
+  .brand-logo {
+    max-height: 100px;
+  }
+
+  .logo {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px; 
+  }
+
+  p{
+    color: #4D5A7F;
+  }
+
