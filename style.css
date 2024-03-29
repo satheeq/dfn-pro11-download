@@ -7,6 +7,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: #131820;
     background-image: url('./image/BG.png');
     background-size: cover;
     background-position: center;
@@ -37,10 +38,53 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 16px; 
+    margin: 4px; 
   }
 
   p{
     color: #4D5A7F;
   }
 
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #384153;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+  top: -130px;
+  left: 0px;
+  padding: 1px;
+  
+}
+
+
+.dropdown-content a {
+  color: #8795ae;
+  background-color: #272E3B;
+  padding: 16px 16px;
+  margin: 1px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+
+.dropdown-content a:hover {
+  background-color: #2F3747;
+  border-radius: 8px;
+  color: #cddaf0;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
